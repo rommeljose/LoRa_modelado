@@ -1,5 +1,5 @@
 # Modulador y Demodulador LoRa
-```markdown
+
 ## Descripción
 
 El código define las características de la modulación LoRa, genera un símbolo específico, y luego lo modula y demodula. Finalmente, se visualizan diferentes aspectos de la señal modulada y demodulada.
@@ -14,7 +14,8 @@ Puedes instalar las dependencias utilizando `pip`:
 
 ```sh
 pip install numpy matplotlib
-```
+````
+
 
 ## Uso
 
