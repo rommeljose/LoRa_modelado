@@ -1,6 +1,5 @@
 # Modulador y Demodulador LoRa
 ```markdown
-# Es
 
 ## Descripción
 
@@ -16,7 +15,6 @@ Puedes instalar las dependencias utilizando `pip`:
 
 ```sh
 pip install numpy matplotlib
-```
 
 ## Uso
 
@@ -25,13 +23,13 @@ Clona este repositorio:
 ```sh
 git clone https://github.com/tu_usuario/modulador_demodulador_LoRa.git
 cd modulador_demodulador_LoRa
-```
+
 
 Ejecuta el script:
 
 ```sh
 python modulador_demodulador_LoRa.py
-```
+
 
 El script generará varias gráficas que muestran la variación de la frecuencia, la amplitud del chirp modulado y demodulado, y el espectro de potencia del símbolo demodulado.
 
@@ -57,4 +55,3 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE
 Para cualquier pregunta o sugerencia, por favor contacta a rommeljose@gmail.com
 
 ¡Gracias por usar este proyecto!
-```
