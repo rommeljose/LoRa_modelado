@@ -22,8 +22,7 @@ pip install numpy matplotlib
 Clona este repositorio:
 
 ```sh
-git clone https://github.com/tu_usuario/modulador_demodulador_LoRa.git
-cd modulador_demodulador_LoRa
+git clone https://github.com/rommeljose/LoRa_modelado.git
 ```
 
 Ejecuta el script:
