@@ -45,16 +45,19 @@ El código proporcionado implementa la modulación y demodulación LoRa utilizan
 
 ### Generación de Chirps
 La función `generar_symb` genera los chirps necesarios para la modulación. Utiliza la siguiente fórmula matemática para crear un chirp ascendente:
+
 $$ \text{chirp}(t) = \exp\left(1j \cdot 2 \pi \left(\frac{s \cdot BW}{2^{SF}} \cdot t + \frac{BW}{2 \cdot T_s} \cdot t^2\right)\right) $$
 donde \( s \) es el símbolo a transmitir, \( BW \) es el ancho de banda, \( SF \) es el factor de expansión, y \( T_s \) es la duración del símbolo.
 
 ### Frecuencia Instantánea
 La frecuencia instantánea del chirp se calcula utilizando la fase instantánea de la señal:
+
 $$ \text{frecuencia\_instantánea} = \frac{\text{d}(\text{fase\_instantánea})}{2 \pi \cdot \text{d}t} $$
 Esto se implementa en el código utilizando la función `np.unwrap` para obtener la fase y `np.diff` para calcular la derivada.
 
 ### Demodulación
 Para la demodulación, se utiliza un chirp descendente de referencia (`base_down_chirp`). La señal recibida se multiplica por este chirp para obtener la señal demodulada (`dechirped`). Luego, se aplica una Transformada Rápida de Fourier (FFT) para obtener el espectro de potencia de la señal demodulada:
+
 $$ \text{dechirped\_fft} = \text{FFT}(\text{dechirped}) $$
 El espectro de potencia se calcula como:
 $$ \text{potencia} = |\text{dechirped\_fft}|^2 $$
