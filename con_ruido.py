@@ -1,3 +1,9 @@
+# Preparado por: Rommel Contreras / Cumaná - Venezuela
+# Fecha de creación: 2021-09-25
+# Fecha de actualización: 2021-09-25
+# Objetivo: Simulación de la modulación chirp con ruido
+
+# Importar librerías
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
