@@ -78,3 +78,9 @@ Estas visualizaciones ayudan a entender mejor el comportamiento de la señal LoR
 ## Conclusión
 La tecnología LoRa ofrece una solución eficiente para la comunicación de larga distancia con bajo consumo de energía, siendo ideal para aplicaciones IoT y redes de sensores.
 
+
+### Referencias:
+- [1] Paper Frequency Shift Chirp Modulation: The LoRa Modulation. Lorenzo Vangelista. IEEE Signal Procesing Letters, Vol. 24, No. 12, 2017.
+- [2] How LoRa Modulation really works - long range communication using chirps; https://www.youtube.com/watch?v=jHWepP1ZWTk
+  
+
