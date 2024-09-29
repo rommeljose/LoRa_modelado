@@ -134,8 +134,8 @@ power = np.abs(dechirped_fft) ** 2  # potencia de la señal
 # Ajustar el tamaño de las fuentes
 plt.rcParams.update({'font.size': 8})
 
-# Crear una figura con subplots
-fig, (ax1, ax2, ax3, ax4, ax5) = plt.subplots(5, 1, figsize=(12, 10))
+# Crear una figura con subplots, reduciendo el tamaño a la mitad
+fig, (ax1, ax2, ax3, ax4, ax5) = plt.subplots(5, 1, figsize=(6, 5))
 
 # Grafica de la variación de la frecuencia para símbolo 189 con factor de dispersión 8
 ax1.plot(symb_t_elongated[:-1], instantaneous_frequency)
@@ -175,14 +175,14 @@ ax5.grid()
 # Ajustar el layout para que no se solapen los subplots
 plt.tight_layout()
 
-# Crear la barra deslizante para el símbolo
-ax_slider_s = plt.axes([0.2, 0.03, 0.65, 0.03], facecolor='lightgoldenrodyellow')
-slider_s = Slider(ax_slider_s, 'Símbolo', 0, 255, valinit=s, valstep=1)
-slider_s.on_changed(update)
+# # Crear la barra deslizante para el símbolo
+# ax_slider_s = plt.axes([0.2, 0.03, 0.65, 0.03], facecolor='lightgoldenrodyellow')
+# slider_s = Slider(ax_slider_s, 'Símbolo', 0, 255, valinit=s, valstep=1)
+# slider_s.on_changed(update)
 
-# Crear la barra deslizante para el factor de dispersión
-ax_slider_sf = plt.axes([0.2, 0.01, 0.65, 0.03], facecolor='lightgoldenrodyellow')
-slider_sf = Slider(ax_slider_sf, 'SF', 7, 12, valinit=SF, valstep=1)
-slider_sf.on_changed(update)
+# # Crear la barra deslizante para el factor de dispersión
+# ax_slider_sf = plt.axes([0.2, 0.01, 0.65, 0.03], facecolor='lightgoldenrodyellow')
+# slider_sf = Slider(ax_slider_sf, 'SF', 7, 12, valinit=SF, valstep=1)
+# slider_sf.on_changed(update)
 
 plt.show()

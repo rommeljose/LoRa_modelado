@@ -81,5 +81,6 @@ La tecnología LoRa ofrece una solución eficiente para la comunicación de larg
 
 ### Referencias:
 - [1] Frequency Shift Chirp Modulation: The LoRa Modulation. Lorenzo Vangelista. IEEE Signal Procesing Letters, Vol. 24, No. 12, 2017. [enlace al documento](https://drive.google.com/file/d/1pGHh7WLAYIRgUsoMKCYRLLRIZi5ozapL/view?usp=sharing)
-- [2] How LoRa Modulation really works - long range communication using chirps; [enlace al youtube](https://www.youtube.com/watch?v=jHWepP1ZWTk)
+- [2] How LoRa Modulation really works - long range communication using chirps (2021); [enlace al youtube](https://www.youtube.com/watch?v=jHWepP1ZWTk)
+- [3] Decoding the LoRa PHY (2016) [enlace al youtube](https://www.youtube.com/watch?v=NoquBA7IMNc)
 
